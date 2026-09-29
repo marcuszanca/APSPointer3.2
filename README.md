@@ -1,5 +1,7 @@
 # APS Pointer 3.2 — Open Demo
 
+<img width="1913" height="823" alt="Screenshot_2" src="https://github.com/user-attachments/assets/5d9ca0d5-d7d7-4dc6-bed0-4f9612ff2375" />
+
 Demonstração pública e independente de um dashboard de monitoramento de Access Points.
 
 > **Importante:** este repositório não contém dados, credenciais, endereços, nomes de unidades, logs ou qualquer outra informação do ambiente de produção que originou o projeto.
