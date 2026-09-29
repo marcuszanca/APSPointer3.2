@@ -1,31 +1,72 @@
-# APSPointer3.2
-Dashboard leve para monitoramento visual de Access Points, com filtros, pesquisa e status em tempo real. Versão pública com dados simulados.
+# APS Pointer 3.2 — Open Demo
 
-APS Pointer 3.2 é um dashboard desenvolvido para monitoramento visual e centralizado de Access Points, com foco em simplicidade operacional, baixo consumo de recursos e rápida identificação de indisponibilidades.
+Demonstração pública e independente de um dashboard de monitoramento de Access Points.
 
-O projeto foi criado para facilitar o acompanhamento de múltiplos equipamentos em uma única interface, reunindo recursos como pesquisa, filtros por status e fabricante, visualização por unidade, indicadores de disponibilidade, latência e perda de pacotes.
+> **Importante:** este repositório não contém dados, credenciais, endereços, nomes de unidades, logs ou qualquer outra informação do ambiente de produção que originou o projeto.
 
-A interface foi pensada para uso contínuo em monitores e TVs de acompanhamento, priorizando leitura rápida e organização das informações.
+## Sobre o projeto
 
-Esta versão pública foi preparada exclusivamente para demonstração e portfólio, utilizando apenas dados simulados. Nenhuma informação, credencial, endereço de rede ou identificação do ambiente real de produção está incluída no repositório.
+O APS Pointer foi criado para apresentar, de forma visual e centralizada, o estado de pontos de acesso distribuídos entre diferentes unidades. Esta edição é uma **demo segura para portfólio e GitHub**: ela reproduz o conceito da interface usando somente dados simulados e não realiza qualquer comunicação de rede.
 
-### Principais recursos
+### Recursos demonstrados
 
-- Dashboard responsivo para monitoramento
-- Organização de Access Points por unidade
-- Status online, instável e offline
-- Indicadores de latência e perda de pacotes
-- Pesquisa rápida de equipamentos
-- Filtros por fabricante e status
+- Dashboard responsivo para desktop, TV e monitores grandes
+- Visão geral de APs online, instáveis e offline
+- Filtros por status e fabricante
+- Pesquisa por AP, fabricante, setor, unidade e IP de documentação
 - Seleção e desseleção de unidades
-- Interface otimizada para monitores grandes
-- Estrutura leve e de fácil utilização
-- Dados totalmente simulados na versão pública
+- Painel detalhado por unidade
+- Latência e perda de pacotes simuladas
+- Atualização automática simulada a cada 60 segundos
+- Interface 100% frontend, sem backend
 
-### Objetivo do projeto
+## Segurança e privacidade
 
-Transformar uma necessidade real de infraestrutura em uma ferramenta simples, visual e objetiva, permitindo identificar rapidamente alterações no estado dos Access Points e melhorar a visibilidade operacional do ambiente de rede.
+Esta versão foi construída especificamente para publicação pública.
 
-**Versão:** 3.2  
-**Status:** Demonstração pública / Portfólio  
-**Dados:** 100% simulados
+- Não contém IPs reais
+- Não contém credenciais ou senhas
+- Não contém SSIDs reais
+- Não contém nomes reais de lojas, filiais ou setores internos
+- Não contém histórico ou logs do ambiente original
+- Não executa PowerShell
+- Não envia ping
+- Não acessa dispositivos, servidores ou APIs
+- Não depende da rede corporativa
+
+Os endereços exibidos usam `192.0.2.0/24` (**TEST-NET-1**), bloco reservado para documentação e exemplos.
+
+## Executar localmente
+
+Não há instalação ou dependências.
+
+1. Clone ou baixe este repositório.
+2. Abra `index.html` em um navegador moderno.
+
+Também é possível publicar diretamente com **GitHub Pages**, pois a aplicação é totalmente estática.
+
+## Estrutura
+
+```text
+APS-Pointer-3.2-GitHub/
+├── index.html
+├── assets/
+│   ├── app.js
+│   └── style.css
+├── README.md
+├── SECURITY.md
+├── LICENSE
+└── .gitignore
+```
+
+## Escopo desta edição
+
+A edição publicada aqui é uma demonstração do conceito e da experiência de uso. A implementação de produção possui integrações e rotinas operacionais que não fazem parte deste repositório público.
+
+## Versão
+
+**3.2 — Open Demo**
+
+## Licença
+
+Distribuído sob a licença MIT. Consulte `LICENSE`.

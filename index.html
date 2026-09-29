@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monitoramento de Access Points — Demo 3.2</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo-mark">AP</div>
+    <div><strong>Monitoramento de Access Points</strong><span>3.2 • OPEN DEMO</span></div>
+  </div>
+  <div class="topmeta">
+    <span class="demo-badge">DADOS 100% SIMULADOS</span>
+    <div class="clock" id="clock">--:--:--</div>
+  </div>
+</header>
+<main class="container">
+  <section class="search-panel">
+    <div class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Pesquisar AP, IP fictício, fabricante, setor ou unidade..."><button id="clearSearch">×</button></div>
+  </section>
+
+  <section class="summary">
+    <button class="summary-card active" data-filter="ALL"><span>APs simulados</span><strong id="sumTotal">0</strong><small>Ver todos</small></button>
+    <button class="summary-card" data-filter="UP"><span>Online</span><strong id="sumUp">0</strong><small>Filtrar online</small></button>
+    <button class="summary-card" data-filter="UNSTABLE"><span>Instáveis</span><strong id="sumUnstable">0</strong><small>Filtrar instáveis</small></button>
+    <button class="summary-card" data-filter="DOWN"><span>Offline</span><strong id="sumDown">0</strong><small>Filtrar offline</small></button>
+  </section>
+
+  <section class="vendors" id="vendorFilters">
+    <button data-vendor="ALL" class="active">Todos <strong id="vAll">0</strong></button>
+    <button data-vendor="Ubiquiti">Ubiquiti <strong id="vUbiquiti">0</strong></button>
+    <button data-vendor="Cisco">Cisco <strong id="vCisco">0</strong></button>
+    <button data-vendor="D-Link">D-Link <strong id="vDlink">0</strong></button>
+    <button data-vendor="Intelbras">Intelbras <strong id="vIntelbras">0</strong></button>
+  </section>
+
+  <section class="stores-head">
+    <div><h1>Unidades simuladas</h1><p>Clique em uma unidade para abrir; clique novamente para deselecionar.</p></div>
+    <div class="refresh">Simulação atualiza a cada <strong id="countdown">60</strong>s</div>
+  </section>
+  <section class="store-grid" id="storeGrid"></section>
+
+  <section class="drawer hidden" id="drawer">
+    <div class="drawer-head">
+      <div><span class="eyebrow">UNIDADE SELECIONADA</span><h2 id="drawerTitle">--</h2><p id="drawerSub">--</p></div>
+      <div class="drawer-stats"><div><span>Total</span><strong id="dTotal">0</strong></div><div><span>Online</span><strong id="dUp">0</strong></div><div><span>Instáveis</span><strong id="dUnstable">0</strong></div><div><span>Offline</span><strong id="dDown">0</strong></div></div>
+    </div>
+    <div class="device-grid" id="deviceGrid"></div>
+  </section>
+
+  <footer>Open demo para portfólio • Todos os dados são fictícios e reservados para demonstração.</footer>
+</main>
+<script src="assets/app.js"></script>
+</body>
+</html>
