@@ -45,8 +45,6 @@ Não há instalação ou dependências.
 1. Clone ou baixe este repositório.
 2. Abra `index.html` em um navegador moderno.
 
-Também é possível publicar diretamente com **GitHub Pages**, pois a aplicação é totalmente estática.
-
 ## Estrutura
 
 ```text
