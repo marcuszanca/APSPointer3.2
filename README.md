@@ -1,26 +1,24 @@
-# APS Pointer 3.2 — Open Demo
+# aps pointer 3.2 — open demo
 
 <img width="1913" height="823" alt="Screenshot_2" src="https://github.com/user-attachments/assets/5d9ca0d5-d7d7-4dc6-bed0-4f9612ff2375" />
 
-Demonstração pública e independente de um dashboard de monitoramento de Access Points.
+demonstração pública e independente de um dashboard para monitoramento de dispositivos ip via snmp em uma rede interna.
 
 > **Importante:** este repositório não contém dados, credenciais, endereços, nomes de unidades, logs ou qualquer outra informação do ambiente de produção que originou o projeto.
 
-## Sobre o projeto
+## sobre o projeto
 
-O APS Pointer foi criado para apresentar, de forma visual e centralizada, o estado de pontos de acesso distribuídos entre diferentes unidades. Esta edição é uma **demo segura para portfólio e GitHub**: ela reproduz o conceito da interface usando somente dados simulados e não realiza qualquer comunicação de rede.
+criei baseado na ideia de monitoramento gerenciável via snmp, ao perceber que a empresa de exemplo não tinha nenhum tipo de acompanhamento para com os materiais.
 
-### Recursos demonstrados
+### recursos disponíveis
 
-- Dashboard responsivo para desktop, TV e monitores grandes
-- Visão geral de APs online, instáveis e offline
-- Filtros por status e fabricante
-- Pesquisa por AP, fabricante, setor, unidade e IP de documentação
-- Seleção e desseleção de unidades
-- Painel detalhado por unidade
-- Latência e perda de pacotes simuladas
-- Atualização automática simulada a cada 60 segundos
-- Interface 100% frontend, sem backend
+- dashboard responsivo para desktop, TV e monitores grandes 
+- visão geral de APs online, instáveis e offline
+- filtros por status e fabricante (tipo de equipamento, etc.)
+- pesquisa por AP, fabricante, setor, unidade e IP de documentação
+- seleção e desseleção de unidades
+- latência e perda de pacotes simuladas
+- interface 100% frontend, sem backend
 
 ## Segurança e privacidade
 
@@ -36,16 +34,14 @@ Esta versão foi construída especificamente para publicação pública.
 - Não acessa dispositivos, servidores ou APIs
 - Não depende da rede corporativa
 
-Os endereços exibidos usam `192.0.2.0/24` (**TEST-NET-1**), bloco reservado para documentação e exemplos.
+os endereços exibidos usam `192.0.2.0/24` (**TEST-NET-1**), bloco reservado para documentação e exemplos.
 
-## Executar localmente
+## executar localmente
 
-Não há instalação ou dependências.
+não há instalação ou dependências.
 
-1. Clone ou baixe este repositório.
-2. Abra `index.html` em um navegador moderno.
-
-## Estrutura
+1. clone ou baixe este repositório.
+2. abra `index.html` em qualquer navegador para executar o css.
 
 ```text
 APS-Pointer-3.2-GitHub/
@@ -59,14 +55,9 @@ APS-Pointer-3.2-GitHub/
 └── .gitignore
 ```
 
-## Escopo desta edição
-
-A edição publicada aqui é uma demonstração do conceito e da experiência de uso. A implementação de produção possui integrações e rotinas operacionais que não fazem parte deste repositório público.
-
 ## Versão
-
 **3.2 — Open Demo**
 
-## Licença
+## licença
 
 Distribuído sob a licença MIT. Consulte `LICENSE`.
