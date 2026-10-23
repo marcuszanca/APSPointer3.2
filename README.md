@@ -7,8 +7,8 @@ demonstração pública e independente de um dashboard para monitoramento de dis
 > **Importante:** este repositório não contém dados, credenciais, endereços, nomes de unidades, logs ou qualquer outra informação do ambiente de produção que originou o projeto.
 
 ## sobre o projeto
-
-criei baseado na ideia de monitoramento gerenciável via snmp, ao perceber que a empresa de exemplo não tinha nenhum tipo de acompanhamento para com os materiais.
+ 
+baseado na ideia de monitoramento gerenciável via snmp, ao perceber que a empresa de exemplo não tinha nenhum tipo de acompanhamento para com os materiais.
 
 ### recursos disponíveis
 
