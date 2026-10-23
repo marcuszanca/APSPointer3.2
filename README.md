@@ -20,7 +20,7 @@ baseado na ideia de monitoramento gerenciável via snmp, ao perceber que a empre
 - latência e perda de pacotes simuladas
 - interface 100% frontend, sem backend
 
-## Segurança e privacidade
+## segurança e privacidade
 
 Esta versão foi construída especificamente para publicação pública.
 
